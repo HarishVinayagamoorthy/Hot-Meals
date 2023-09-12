@@ -1,0 +1,269 @@
+ /* ----------------fonts-------------------
+
+
+    font-family: 'Open Sans', sans-serif;
+     font-family: 'Qwigley', cursive; */
+
+
+     
+
+     .navbar-brand{
+        color: var(--theme-primary, #FFB30E)!important;
+        font-family: Qwigley!important;
+        font-size: 80px !important;
+        
+        font-weight: 400 !important;
+        line-height: 120%; /* 96px */
+
+        
+     }
+
+
+     .herosection-button.active {
+      padding: 10px 25px;
+      background-color: #f1722821;
+      border-radius: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #F17228;
+  }
+
+     /* -----------------herosection-------------- */
+
+     .header-section h1{
+        color: var(--theme-white, #FFF);
+
+/* Object shadow 2 */
+text-shadow: 0px 27px 82px rgba(255, 174, 0, 0.28), 0px 14px 15px rgba(255, 174, 0, 0.01);
+font-family: Qwigley!important;
+font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: 100%; /* 88px */
+     }
+     .left-container p{
+
+      color: #504F4F;
+
+      /* Headline 6 */
+      font-family: Source Sans Pro;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 120%; /* 26.4px */
+
+     }
+
+     #herosection-btn1{
+
+      border-radius: 8px;
+background: rgba(241, 114, 40, 0.10)!important;
+border: none!important;
+color: var(--theme-warning, #F17228)!important;
+
+/* Button Bold */
+font-family: Source Sans Pro!important;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+     }
+
+     #herosection-btn2{
+      color: var(--theme-gray-600, #757575)!important;
+       
+/* Button Bold */
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+     }
+
+
+     #find-food-btn{
+      display: flex;
+padding: 21px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 8px;
+background: linear-gradient(96deg, #FF7A7A -39.64%, #F65900 135.31%);
+
+color: var(--theme-white, #FFF);
+text-align: center;
+
+/* Button Bold */
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+     }
+
+
+     #search-bar{
+      display: flex;
+      padding: 7px 0px 8px 16px;
+      align-items: center;
+      gap: 12px;
+      flex: 1 0 0;
+      border-radius: 8px;
+background: var(--theme-gray-100, #F5F5F5);
+          
+
+
+
+
+
+
+     }
+
+     /* ---------------------------deliver-time------------------------------ */
+
+
+    #Deliver-time{
+      display: inline-flex;
+padding: 8px 16px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 8px;
+background: rgba(241, 114, 40, 0.20);
+
+color: var(--theme-warning, #F17228)!important;
+
+/* Headline 6 Bold */
+font-family: Source Sans Pro;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+/* margin-left: -20px; */
+
+     }
+
+
+
+     .card{
+
+      border: none !important;
+     }
+
+/* --------------------------------works-contents---------------------- */
+
+
+#works-contents {
+   color: #F17228;
+text-align: center;
+
+/* Headline 4 Bold */
+font-family: Source Sans Pro;
+font-size: 43px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 48.16px */
+
+}
+
+.works h1 {
+   
+/* Headline 5 Bold */
+font-family: Source Sans Pro;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 42px */
+background: linear-gradient(93deg, #FB3C00 -47.72%, #FFB800 136.81%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+#works-icons{
+   border-radius: 10px;
+   background: #FFF;
+   box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.10);
+}
+
+
+/* 
+--------------------------------------search foods-------------------- */
+
+
+
+
+.food-icons{
+
+   width: 200px!important;
+height: 259px!important;
+
+}
+
+.foods-titel{
+   color: var(--theme-gray-900, #212121);
+text-align: center;
+
+/* Headline 4 Bold */
+font-family: Source Sans Pro!important;
+font-size: 43px!important;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 48.16px */
+}
+
+
+/* ---------------------------------bestdeals--------------------------- */
+
+#bestdeals-btn{
+
+
+   display: flex;
+width: 407px;
+padding: 21px 48px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+
+border-radius: 8px;
+background: var(--yellow-button, linear-gradient(93deg, #FFB800 -47.72%, #FF8A00 136.81%));
+
+/* Button shadow ! */
+box-shadow: 0px 14px 32px 0px rgba(255, 178, 14, 0.29), 0px 5px 8px 0px rgba(222, 151, 0, 0.24);
+   
+}
+
+
+/* -------------------------------------------------------popular-cards-------- */
+
+.card-title{
+   color: var(--theme-gray-800, #424242)!important;
+
+/* Headline 6 Bold */
+font-family: Source Sans Pro!important;
+font-size: 22px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 26.4px */
+
+}
+
+.order-btn{
+   border-radius: 8px;
+background: var(--theme-warning, #F17228)!important;
+
+/* Shadow/2 */
+box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24), 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+   
+
+color: var(--theme-white, #FFF)!important;
+text-align: center;
+
+/* Button Bold */
+font-family: Source Sans Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 18px */
+}
